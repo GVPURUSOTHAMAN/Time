@@ -1,5 +1,27 @@
 body {
   font-family: system-ui;
   background-image: -moz-element("time.jpg");
-  background-color: aquamarine;
+  background-color: black;
+  text-align: center;
+  color: azure;
+}
+
+.container {
+  width: 500px;
+  height: 700px;
+  /* background-color: aqua; */
+  margin: auto;
+  color: red;
+  display: flex;
+  align-items: center;
+}
+#clock {
+  margin: auto;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 4.24px;
+  border: 15px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+  padding: 35px;
 }
