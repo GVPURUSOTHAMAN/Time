@@ -1,0 +1,5 @@
+body {
+  font-family: system-ui;
+  background-image: -moz-element("time.jpg");
+  background-color: aquamarine;
+}
